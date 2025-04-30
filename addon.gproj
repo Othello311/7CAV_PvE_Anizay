@@ -1,0 +1,8 @@
+GameProject {
+ ID "7CavPvE"
+ GUID "653D5AAEB5A4AAF0"
+ TITLE "7Cav PvE"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
