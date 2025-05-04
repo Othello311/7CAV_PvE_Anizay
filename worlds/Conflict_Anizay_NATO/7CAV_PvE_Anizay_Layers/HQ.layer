@@ -34,7 +34,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
   Flags 524291
-  coords 4161.988 0 -55.653
+  coords 1949.605 0 8822.506
   angleY -174.33
   {
    GenericEntity {
@@ -158,7 +158,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   angleY 76.242
   {
    GenericEntity {
-    ID "65376060FFE6C769"
     coords -44.402 0 -18.716
    }
    GenericEntity {
