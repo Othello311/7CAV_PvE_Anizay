@@ -49,8 +49,8 @@ GenericEntity MilitaryBaseAirfield16 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_eGroupType FIRETEAM
       m_iRespawnPeriod 20
       m_fAILimitThreshold 0.95
-      m_iRespawnWaves 3
-      m_iGroupMultiplier 4
+      m_iRespawnWaves 4
+      m_iGroupMultiplier 2
      }
     }
     coords 359.282 3.747 12.963
@@ -122,16 +122,6 @@ GenericEntity MilitaryBaseAirfield16 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-     }
-    }
-    coords 50.928 2.864 25.233
-    angleY 57.813
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
       m_iGroupMultiplier 2
      }
     }
@@ -156,41 +146,8 @@ GenericEntity MilitaryBaseAirfield16 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_iGroupMultiplier 2
      }
     }
-    coords 13.739 2.143 -79.358
-    angleY 67.4
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
-     }
-    }
-    coords 67.803 1.348 89.639
-    angleY 149.003
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
-     }
-    }
     coords 16.245 1.22 -117.975
     angleY 149.003
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
-     }
-    }
-    coords 43.393 1.716 -36.778
-    angleY -23.184
    }
    {
     components {

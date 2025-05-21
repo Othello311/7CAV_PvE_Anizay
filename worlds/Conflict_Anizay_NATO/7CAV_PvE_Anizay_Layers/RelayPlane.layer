@@ -37,7 +37,7 @@ GenericEntity RelayEstrapade5 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
    Transceivers {
     RelayTransceiver "{5C727AD73024FB39}" {
-     "Transmitting Range" 2000
+     "Transmitting Range" 100
     }
    }
   }
@@ -55,6 +55,7 @@ GenericEntity RelayEstrapade5 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
         Name "Upload-BlackBox"
        }
        VisibilityRange 1
+       Duration 40
       }
      }
     }

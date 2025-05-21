@@ -79,7 +79,7 @@ GenericEntity MilitaryBaseAirfield10 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_iGroupMultiplier 3
      }
     }
-    coords 302.765 -9.251 35.623
+    coords 358.968 -14.921 49.636
     angleX -6.49
     angleY -54.762
     angleZ 0.391

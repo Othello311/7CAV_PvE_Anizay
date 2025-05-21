@@ -50,7 +50,7 @@ GenericEntity MilitaryBaseAirfield17 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_iRespawnPeriod 20
       m_fAILimitThreshold 0.95
       m_iRespawnWaves 3
-      m_iGroupMultiplier 4
+      m_iGroupMultiplier 3
      }
     }
     coords 339.345 -4.822 -71.504
@@ -164,54 +164,9 @@ GenericEntity MilitaryBaseAirfield17 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
-     }
-    }
-    coords 67.803 -1.419 89.639
-    angleY 149.003
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
-     }
-    }
-    coords 16.245 -2.438 -117.975
-    angleY 149.003
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 43.393 -0.539 -36.778
-    angleY -23.184
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
-     }
-    }
-    coords 101.275 -2.251 -63.884
-    angleY -23.184
-   }
-   {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-      m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
-     }
-    }
-    coords 130.987 -3.52 26.559
     angleY -23.184
    }
    {

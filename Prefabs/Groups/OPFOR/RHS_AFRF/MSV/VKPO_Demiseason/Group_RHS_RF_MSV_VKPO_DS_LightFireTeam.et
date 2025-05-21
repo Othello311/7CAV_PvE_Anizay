@@ -9,12 +9,12 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
      71
     }
     m_EntityChildrenBudgetCost {
-     SCR_EntityBudgetValue "{6548120C848FD74C}" {
+     SCR_EntityBudgetValue "{65636BDAF4156459}" {
       m_BudgetType AI
       m_Value 4
      }
     }
-    m_MilitarySymbol SCR_MilitarySymbol "{6548120C848FD756}" {
+    m_MilitarySymbol SCR_MilitarySymbol "{65636BDAF41564A1}" {
      m_Identity OPFOR
      m_Dimension LAND
      m_Icons 32769
@@ -31,7 +31,7 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
   SCR_PreviewEntityComponent "{56368A4E303DBA0F}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    m_bRuntime 0
    m_aEntries {
-    SCR_BasePreviewEntry "{6548120C848FD7A4}" {
+    SCR_BasePreviewEntry "{65636BDAF41564A9}" {
      m_iParentID -1
      m_Mesh ""
      m_Flags 3
@@ -41,7 +41,7 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6548120C848FD7A6}" {
+    SCR_BasePreviewEntry "{65636BDAF41564B4}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -51,7 +51,7 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
      m_vPosition 0 0 0
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6548120C848FD7A3}" {
+    SCR_BasePreviewEntry "{65636BDAF41564B6}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -61,7 +61,7 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
      m_vPosition 3 0 -3
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6548120C848FD7AC}" {
+    SCR_BasePreviewEntry "{65636BDAF41564B7}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0
@@ -71,7 +71,7 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
      m_vPosition -3 0 -3
      m_vAngles 0 0 0
     }
-    SCR_BasePreviewEntry "{6548120C848FD7AD}" {
+    SCR_BasePreviewEntry "{65636BDAF41564B1}" {
      m_iParentID 0
      m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
      m_Flags 0

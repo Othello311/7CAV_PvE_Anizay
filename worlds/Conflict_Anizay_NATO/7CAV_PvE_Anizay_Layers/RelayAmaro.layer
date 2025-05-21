@@ -8,7 +8,7 @@ GenericEntity RelayEstrapade : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/C
   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
    Transceivers {
     RelayTransceiver "{5C727AD73024FB39}" {
-     "Transmitting Range" 2000
+     "Transmitting Range" 1500
     }
    }
   }
@@ -18,6 +18,15 @@ GenericEntity RelayEstrapade : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/C
  {
   GenericEntity {
    ID "5C727AD606EB0C1C"
+   components {
+    ActionsManagerComponent "{5C727AD65C3206FA}" {
+     additionalActions {
+      SCR_CampaignReconfigureRelayUserAction "{5C727AD67B0A97A0}" {
+       Duration 40
+      }
+     }
+    }
+   }
    coords -16.915 1.985 4.307
    angleY 101.087
   }

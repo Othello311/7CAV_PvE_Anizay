@@ -1,0 +1,70 @@
+Vehicle : "{D1383479A70717D9}Prefabs/M1025/kiok_m1025_armed_M2_guncover_tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65611D1028684E61}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{7CD77AD89540E82A}Assets/Vehicles/VehParts/Material/HV_Humvee_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M1025 M2 SHLD (Tan)"
+    m_Image "{BB08009E6D69A69B}ArtNew/m1025_m2shld_tan_ui.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 300
+     }
+     SCR_EntityBudgetValue "{64537B9564944B3C}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{834B5F01B2C484B4}Prefabs/VehParts/Mixed/kiok_humvee_tailgate_Tan.et"
+    }
+    RegisteringComponentSlotInfo Brushguard {
+     Prefab "{C5B39840F8C58EFC}Prefabs/VehParts/Mixed/M998_brushguard_Tan.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{E07033143DAE06F3}Prefabs/VehParts/Roof/M1025_roof_M2_gun_cover_TAN.et"
+    }
+    RegisteringComponentSlotInfo stant {
+     Offset 0.1286 1.2294 -0.4916
+     Angles 0 180 0
+     Prefab "{7ABEE6C97FE7B59E}Prefabs/VehParts/Mixed/radio_stant.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo radio {
+     Offset 0.1151 1.1535 0.4228
+     Angles 0 180 0
+     Prefab "{9C39592F91F16A22}Prefabs/VehParts/Mixed/radio_int.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords 0 0.753 0.04
+}

@@ -31,12 +31,6 @@ GenericEntity MilitaryBaseAirfield21 : "{1391CE8C0E255636}Prefabs/Systems/Milita
     SCR_MapDescriptorComponent "{5C66967308165E76}" {
      Enabled 0
     }
-    RplComponent "{5C66967327A1ECD4}" {
-     Enabled 0
-    }
-    Hierarchy "{5C6696730F8278E4}" {
-     Enabled 0
-    }
    }
    coords 0 0 0
    m_bUseNearbySpawnPositions 0
@@ -100,7 +94,6 @@ GenericEntity MilitaryBaseAirfield21 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 35.577 -1.458 8.001
@@ -111,7 +104,6 @@ GenericEntity MilitaryBaseAirfield21 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 33.431 -1.851 73.226
@@ -153,7 +145,6 @@ GenericEntity MilitaryBaseAirfield21 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords -66.922 -1.758 1.072
@@ -164,7 +155,6 @@ GenericEntity MilitaryBaseAirfield21 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords -71.583 -1.299 46.94
@@ -175,7 +165,6 @@ GenericEntity MilitaryBaseAirfield21 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 10.843 -2.185 96.475

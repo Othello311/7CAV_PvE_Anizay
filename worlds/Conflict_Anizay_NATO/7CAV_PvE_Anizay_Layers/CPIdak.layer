@@ -31,12 +31,6 @@ GenericEntity MilitaryBaseAirfield9 : "{1391CE8C0E255636}Prefabs/Systems/Militar
     SCR_MapDescriptorComponent "{5C66967308165E76}" {
      Enabled 0
     }
-    RplComponent "{5C66967327A1ECD4}" {
-     Enabled 0
-    }
-    Hierarchy "{5C6696730F8278E4}" {
-     Enabled 0
-    }
    }
    coords 0 0 0
    m_bUseNearbySpawnPositions 0

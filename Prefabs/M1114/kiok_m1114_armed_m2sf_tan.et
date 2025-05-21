@@ -1,0 +1,71 @@
+Vehicle : "{A700259B52ACE0A1}Prefabs/M1114/kiok_m1114_armed_m2sf_green.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M1114 SF (Tan)"
+    m_Image "{038C883BBADB26A4}ArtNew/m1114_sf_tan_ui.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 450
+     }
+     SCR_EntityBudgetValue "{64537B9564944B3C}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{97891FDCD445982E}Prefabs/VehParts/Roof/kiok_humvee_gmv_roof_tan.et"
+    }
+    EntitySlotInfo SupplyStorage_06 {
+     Offset 0.4901 0.1615 -2.765
+     Angles 0 0 0
+    }
+    RegisteringComponentSlotInfo stant {
+     Offset 0.1286 1.2294 -0.4916
+     Angles 0 180 0
+     Prefab "{7ABEE6C97FE7B59E}Prefabs/VehParts/Mixed/radio_stant.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo radio {
+     Offset 0.1151 1.1535 0.4228
+     Angles 0 180 0
+     Prefab "{9C39592F91F16A22}Prefabs/VehParts/Mixed/radio_int.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo barbed2 {
+     Offset -0.0114 0.5551 1.3743
+     Angles 8.8234 180 0
+     Prefab "{BCA59948B2578A98}Prefabs/VehParts/Mixed/barbed_kiok.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo barbed {
+     Offset -0.0005 0.5482 1.3651
+     Angles 7.0809 -143.15292 5.2778
+     Prefab "{BCA59948B2578A98}Prefabs/VehParts/Mixed/barbed_kiok.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords 63.87 1 119.965
+}

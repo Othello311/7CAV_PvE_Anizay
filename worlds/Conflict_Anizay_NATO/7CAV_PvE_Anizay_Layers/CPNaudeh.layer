@@ -31,12 +31,6 @@ GenericEntity MilitaryBaseAirfield26 : "{1391CE8C0E255636}Prefabs/Systems/Milita
     SCR_MapDescriptorComponent "{5C66967308165E76}" {
      Enabled 0
     }
-    RplComponent "{5C66967327A1ECD4}" {
-     Enabled 0
-    }
-    Hierarchy "{5C6696730F8278E4}" {
-     Enabled 0
-    }
    }
    coords 0 -0.002 0
    m_bUseNearbySpawnPositions 0
@@ -50,7 +44,7 @@ GenericEntity MilitaryBaseAirfield26 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_iRespawnPeriod 30
       m_fAILimitThreshold 0.95
       m_iRespawnWaves 3
-      m_iGroupMultiplier 5
+      m_iGroupMultiplier 3
      }
     }
     coords 359.281 14.677 12.963
@@ -76,7 +70,7 @@ GenericEntity MilitaryBaseAirfield26 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_iRespawnPeriod 20
       m_fAILimitThreshold 0.95
       m_iRespawnWaves 3
-      m_iGroupMultiplier 5
+      m_iGroupMultiplier 3
      }
     }
     coords 139.079 7.625 -256.18
@@ -111,7 +105,6 @@ GenericEntity MilitaryBaseAirfield26 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 73.066 0.619 63.453
@@ -153,7 +146,6 @@ GenericEntity MilitaryBaseAirfield26 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 149.079 -5.414 75.481
@@ -164,7 +156,6 @@ GenericEntity MilitaryBaseAirfield26 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 18.688 0.593 155.936

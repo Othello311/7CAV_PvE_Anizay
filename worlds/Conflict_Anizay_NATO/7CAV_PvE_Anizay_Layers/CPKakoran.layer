@@ -31,12 +31,6 @@ GenericEntity MilitaryBaseAirfield14 : "{1391CE8C0E255636}Prefabs/Systems/Milita
     SCR_MapDescriptorComponent "{5C66967308165E76}" {
      Enabled 0
     }
-    RplComponent "{5C66967327A1ECD4}" {
-     Enabled 0
-    }
-    Hierarchy "{5C6696730F8278E4}" {
-     Enabled 0
-    }
    }
    coords 0 0 0
    m_bUseNearbySpawnPositions 0
@@ -50,7 +44,7 @@ GenericEntity MilitaryBaseAirfield14 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_iRespawnPeriod 20
       m_fAILimitThreshold 0.95
       m_iRespawnWaves 2
-      m_iGroupMultiplier 3
+      m_iGroupMultiplier 2
      }
     }
     coords 209.093 -10.916 249.159
@@ -76,7 +70,7 @@ GenericEntity MilitaryBaseAirfield14 : "{1391CE8C0E255636}Prefabs/Systems/Milita
       m_iRespawnPeriod 20
       m_fAILimitThreshold 0.95
       m_iRespawnWaves 5
-      m_iGroupMultiplier 3
+      m_iGroupMultiplier 2
      }
     }
     coords 312.739 -13.423 161.842
@@ -100,7 +94,6 @@ GenericEntity MilitaryBaseAirfield14 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords -31.795 -1.931 54.391
@@ -111,7 +104,6 @@ GenericEntity MilitaryBaseAirfield14 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 73.066 -5.44 63.453
@@ -153,7 +145,6 @@ GenericEntity MilitaryBaseAirfield14 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords -108.721 -0.18 -44.323
@@ -164,7 +155,6 @@ GenericEntity MilitaryBaseAirfield14 : "{1391CE8C0E255636}Prefabs/Systems/Milita
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 1.396 -7.782 93.16

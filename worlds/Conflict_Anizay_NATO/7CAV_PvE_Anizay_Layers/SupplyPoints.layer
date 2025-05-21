@@ -30,40 +30,12 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      angleX -0.895
      angleY -178.056
      angleZ -0.03
-     {
-      GenericEntity {
-       ID "5D453938FA2CE085"
-       components {
-        SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-         m_aContainers {
-          SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-           m_fResourceGain 500
-          }
-         }
-        }
-       }
-      }
-     }
     }
     {
      coords -25.646 0.244 25.128
      angleX -0.893
      angleY -176.589
      angleZ -0.053
-     {
-      GenericEntity {
-       ID "5D453938FA2CE085"
-       components {
-        SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-         m_aContainers {
-          SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-           m_fResourceGain 500
-          }
-         }
-        }
-       }
-      }
-     }
     }
    }
    GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
@@ -422,40 +394,12 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      angleX -1.37
      angleY 55.257
      angleZ 1.863
-     {
-      GenericEntity {
-       ID "5D453938FA2CE085"
-       components {
-        SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-         m_aContainers {
-          SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-           m_fResourceGain 500
-          }
-         }
-        }
-       }
-      }
-     }
     }
     {
      coords 12.827 0.506 -6.36
      angleX -2.481
      angleY -121.073
      angleZ -0.533
-     {
-      GenericEntity {
-       ID "5D453938FA2CE085"
-       components {
-        SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-         m_aContainers {
-          SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-           m_fResourceGain 500
-          }
-         }
-        }
-       }
-      }
-     }
     }
    }
    GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
@@ -463,20 +407,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
     angleX -3.177
     angleY 140.422
     angleZ 0.571
-    {
-     GenericEntity {
-      ID "5D45393876460D01"
-      components {
-       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-        m_aContainers {
-         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-          m_fResourceGainTickrate 20
-         }
-        }
-       }
-      }
-     }
-    }
    }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     {

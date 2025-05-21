@@ -31,12 +31,6 @@ GenericEntity MilitaryBaseAirfield5 : "{1391CE8C0E255636}Prefabs/Systems/Militar
     SCR_MapDescriptorComponent "{5C66967308165E76}" {
      Enabled 0
     }
-    RplComponent "{5C66967327A1ECD4}" {
-     Enabled 0
-    }
-    Hierarchy "{5C6696730F8278E4}" {
-     Enabled 0
-    }
    }
    coords 0 0 0
    m_bUseNearbySpawnPositions 0
@@ -48,7 +42,6 @@ GenericEntity MilitaryBaseAirfield5 : "{1391CE8C0E255636}Prefabs/Systems/Militar
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
       m_eGroupType FIRETEAM
-      m_iGroupMultiplier 2
      }
     }
     coords 13.375 -0.125 8.618
@@ -58,10 +51,10 @@ GenericEntity MilitaryBaseAirfield5 : "{1391CE8C0E255636}Prefabs/Systems/Militar
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
-      m_iRespawnPeriod 30
+      m_iRespawnPeriod 15
       m_fAILimitThreshold 0.95
       m_iRespawnWaves 3
-      m_iGroupMultiplier 3
+      m_iGroupMultiplier 2
      }
     }
     coords 359.281 -3.217 12.965
@@ -87,7 +80,7 @@ GenericEntity MilitaryBaseAirfield5 : "{1391CE8C0E255636}Prefabs/Systems/Militar
       m_iRespawnPeriod 30
       m_fAILimitThreshold 0.95
       m_iRespawnWaves 5
-      m_iGroupMultiplier 4
+      m_iGroupMultiplier 3
      }
     }
     coords 266.221 -5.183 183.831

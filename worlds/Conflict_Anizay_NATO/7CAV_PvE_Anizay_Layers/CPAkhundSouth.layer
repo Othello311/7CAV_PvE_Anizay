@@ -1,3 +1,11 @@
+GenericEntity : "{0838D33167666DDA}PrefabsEditable/Auto/Weapons/AutoTurrets/E_CIWS_Phalanx_USSR.et" {
+ components {
+  FactionAffiliationComponent "{62ACAE2F976BB213}" {
+   "faction affiliation" "FIA"
+  }
+ }
+ coords 2336.857 187.229 1068.112
+}
 GenericEntity MilitaryBaseAirfield2 : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  components {
   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
@@ -135,6 +143,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
     m_eGroupType FIRETEAM
+    m_iGroupMultiplier 2
    }
   }
   coords 2230.319 165.715 1142.282
@@ -145,6 +154,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
     m_eGroupType FIRETEAM
+    m_iGroupMultiplier 2
    }
   }
   coords 2343.274 170.937 997.124
@@ -170,39 +180,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
   coords 2074.12 166.812 1521.087
-  angleY 6.162
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-    m_eGroupType FIRETEAM
-    m_iGroupMultiplier 2
-   }
-  }
-  coords 2135.711 180.048 1445.959
-  angleY 6.162
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-    m_eGroupType FIRETEAM
-    m_iGroupMultiplier 2
-   }
-  }
-  coords 2189.875 167.065 1345.977
-  angleY 6.162
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
-    m_eGroupType FIRETEAM
-    m_iGroupMultiplier 2
-   }
-  }
-  coords 2188.343 167.065 1345.092
   angleY 6.162
  }
 }

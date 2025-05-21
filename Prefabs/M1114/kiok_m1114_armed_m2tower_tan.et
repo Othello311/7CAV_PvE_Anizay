@@ -1,0 +1,176 @@
+Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   EmissiveSurfaceSlots {
+    EmissiveLightSurfaceSlot LHeadlight {
+     Offset -0.0306 0 0.12
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{551CDACF0C2C3D11}" {
+      }
+      SurfaceLightConfigItem "{551CDACF031FF0A5}" {
+      }
+     }
+    }
+    EmissiveLightSurfaceSlot RHeadlight {
+     Offset 0.016 0 0.12
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{551CDACF06B6A4D4}" {
+      }
+      SurfaceLightConfigItem "{551CDACF0414CD15}" {
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{65611D16B9AB6DB1}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{7CD77AD89540E82A}Assets/Vehicles/VehParts/Material/HV_Humvee_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M1114 M2  (Tan)"
+    m_Image "{6320B8631602EB61}ArtNew/m1114_tan_ui.edds"
+    m_aAuthoredLabels {
+     3 20 21 36 39
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6052A79ADDA6C7A8}" {
+     }
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 450
+     }
+     SCR_EntityBudgetValue "{5EE71CA1677C234F}" {
+     }
+     SCR_EntityBudgetValue "{64537B9564944B3C}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+     }
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BC6B3C51D}" {
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{5A5EA70BC6886E82}" {
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5B1070686F48F485}" {
+     NumSlots 6
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     BaseDamageMultiplier 2
+     MaxHealth 9000
+     "DamageState threshold" {
+      0.998 0.6 0.3
+     }
+     m_fFireMultiplier 2
+    }
+    SCR_EngineHitZone Engine_01 {
+     MaxHealth 900
+     CriticalDamage 1
+     DamageThreshold 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{5E889B80611C8D8B}" {
+      }
+      SCR_DamagePassRule "{5EBC9EDDF88BA3EA}" {
+      }
+     }
+     m_vParticleOffset 0 0 0
+    }
+    SCR_GearboxHitZone Gearbox_01 {
+     MaxHealth 900
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{5E889B80611C8D8B}" {
+      }
+     }
+     m_vParticleOffset 0 0 0
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{01CB4C112B526174}Prefabs/VehParts/Mixed/M998_wheel_01_Tan.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{834B5F01B2C484B4}Prefabs/VehParts/Mixed/kiok_humvee_tailgate_Tan.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Offset -0.419 0.739 -2.187
+     Angles 20.707 0 0
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{4372F752713FF1AF}Prefabs/VehParts/Roof/kiok_humvee_m1114_roof_tan.et"
+    }
+    RegisteringComponentSlotInfo tel1 {
+     Offset -0.0131 0.1963 0.1725
+     Prefab "{B5B59EFAFFC1DC73}Prefabs/VehParts/Mixed/kiok_humvee_tel_1.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo tel2 {
+     Offset 0.0211 0.202 -3.7812
+     Angles 0 180 0
+     Prefab "{B5B59EFAFFC1DC73}Prefabs/VehParts/Mixed/kiok_humvee_tel_1.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo stant {
+     Offset 0.1286 1.2294 -0.4916
+     Angles 0 180 0
+     Prefab "{7ABEE6C97FE7B59E}Prefabs/VehParts/Mixed/radio_stant.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo radio {
+     Offset 0.1151 1.1535 0.4228
+     Angles 0 180 0
+     Prefab "{9C39592F91F16A22}Prefabs/VehParts/Mixed/radio_int.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo barbed {
+     Offset -0.0005 0.5482 1.3651
+     Angles 7.0809 -143.15292 5.2778
+     Prefab "{BCA59948B2578A98}Prefabs/VehParts/Mixed/barbed_kiok.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo barbed2 {
+     Offset -0.0114 0.5551 1.3743
+     Angles 8.8234 180 0
+     Prefab "{BCA59948B2578A98}Prefabs/VehParts/Mixed/barbed_kiok.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords 60.132 1 119.781
+}

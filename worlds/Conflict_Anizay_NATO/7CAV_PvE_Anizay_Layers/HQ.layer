@@ -18,9 +18,6 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "#AR-Campaign_MapLocation_MOB"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_MOB-UC"
    }
-   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
-    VisibleOnMap 0
-   }
    SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
     Enabled 0
    }
@@ -34,7 +31,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
   Flags 524291
-  coords 1949.605 0 8822.506
+  coords 4161.988 0 -55.653
   angleY -174.33
   {
    GenericEntity {
@@ -143,30 +140,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fOperationalRadius 50
    }
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 500
-     }
-    }
     m_bIsSource 1
    }
    SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
     "faction affiliation" "US"
    }
   }
-  coords 3553.583 190.375 1516.628
-  angleY 76.242
+  coords 3649.654 190.375 1575.054
+  angleY 247.642
   {
-   GenericEntity {
-    coords -44.402 0 -18.716
-   }
    GenericEntity {
     ID "5CCED514A5908822"
     Flags 2097155
-   }
-   SCR_CampaignSpawnPointGroup {
-    ID "5C6696731466AF36"
-    coords 57.097 -0.492 7.17
    }
   }
  }

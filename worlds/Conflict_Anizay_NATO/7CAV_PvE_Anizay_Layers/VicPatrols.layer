@@ -2,9 +2,6 @@ $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientV
  USSRVehicleSpawnCoastLamentin {
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     20
-    }
     m_aExcludedEditableEntityLabels {
      51 52
     }

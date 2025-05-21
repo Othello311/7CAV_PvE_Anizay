@@ -1,0 +1,61 @@
+Vehicle : "{B48EF8A7AFC62EBB}Prefabs/M1114/kiok_m1114_armed_m2tower_tan.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{61DF26CEBA5E74ED}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{7CD77AD89540E82A}Assets/Vehicles/VehParts/Material/HV_Humvee_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M1114 MK19  (Tan)"
+    m_aAuthoredLabels + {
+     41
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 600
+     }
+     SCR_EntityBudgetValue "{64537B9564944B3C}" {
+      m_BudgetType RANK_SERGEANT
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5B1070686F48F485}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{1B867FA53BF5C75F}Prefabs/Weapons/Magazines/Box_40mm_HE_100.et"
+     }
+     NumSlots 3
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{AF043EE0870B4C69}Prefabs/VehParts/Roof/kiok_humvee_m1114_roof_mk190_tan.et"
+    }
+    RegisteringComponentSlotInfo barbed {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo barbed2 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 110.476 1 98.632
+}

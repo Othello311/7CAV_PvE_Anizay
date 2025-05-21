@@ -8,7 +8,7 @@ GenericEntity RelayEstrapade4 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
    Transceivers {
     RelayTransceiver "{5C727AD73024FB39}" {
-     "Transmitting Range" 2000
+     "Transmitting Range" 100
     }
    }
   }
@@ -25,6 +25,7 @@ GenericEntity RelayEstrapade4 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
        UIInfo UIInfo "{5C727AD6914D5B43}" {
         Name "SO A CAVE HUH?"
        }
+       Duration 40
       }
      }
     }
