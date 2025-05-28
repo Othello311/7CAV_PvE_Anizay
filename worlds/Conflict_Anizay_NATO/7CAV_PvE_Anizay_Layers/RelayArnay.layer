@@ -37,6 +37,9 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
       m_eGroupType FIRETEAM
       m_iGroupMultiplier 2
      }
+     SCR_FactionAffiliationComponent "{6579380E082F1773}" {
+      "faction affiliation" "FIA"
+     }
     }
     coords 4.449 -6.043 -33.635
     angleY -90
@@ -46,6 +49,9 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
       m_iGroupMultiplier 2
+     }
+     SCR_FactionAffiliationComponent "{6579380E746AD7CF}" {
+      "faction affiliation" "FIA"
      }
     }
     coords 94.457 -4.298 40.982
@@ -57,6 +63,8 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
       m_eGroupType FIRETEAM
       m_iGroupMultiplier 2
      }
+     SCR_FactionAffiliationComponent "{6579380E6EA82B95}" {
+     }
     }
     coords 57.676 -1.845 -10.989
     angleY -90
@@ -66,6 +74,9 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
       m_iGroupMultiplier 2
+     }
+     SCR_FactionAffiliationComponent "{6579380E5F45C612}" {
+      "faction affiliation" "FIA"
      }
     }
     coords 2.237 -3.537 34.16
@@ -78,6 +89,9 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
       m_bPickRandomGroupType 1
       m_iGroupMultiplier 2
      }
+     SCR_FactionAffiliationComponent "{6579380E59BE96FE}" {
+      "faction affiliation" "FIA"
+     }
     }
     coords 3.374 0.001 -3.415
     angleY -90
@@ -88,6 +102,9 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
       m_eGroupType FIRETEAM
       m_iGroupMultiplier 2
      }
+     SCR_FactionAffiliationComponent "{6579380E4F4B5997}" {
+      "faction affiliation" "FIA"
+     }
     }
     coords 199.872 -19.513 39.572
     angleY 180
@@ -97,6 +114,9 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
       m_iGroupMultiplier 2
+     }
+     SCR_FactionAffiliationComponent "{6579380E47263E55}" {
+      "faction affiliation" "FIA"
      }
     }
     coords 23.792 0 29.391

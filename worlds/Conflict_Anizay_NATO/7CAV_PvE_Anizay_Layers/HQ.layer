@@ -156,3 +156,28 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
  }
 }
+Vehicle LAV25_Conflict1 : "{40B400DD2048C9A6}Prefabs/Vehicles/Wheeled/Conflict_Variants/LAV25_Conflict.et" {
+ coords 3529.38 190.392 1542.042
+}
+Vehicle AUS_UH60_supplytransporter1 : "{793F69FB20D1CB7C}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_supplytransporter.et" {
+ coords 3659.058 190.468 1487.247
+ angleY -105.649
+}
+Vehicle MH6M1 : "{8ADF3E7C1D5BC6EF}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
+ coords 3667.087 190.467 1453.577
+ angleY -104.832
+}
+$grp Vehicle : "{8BF758EA3E3F41A5}Prefabs/Vehicles/Wheeled/M1114/GPK/M1114_GPK_Tan.et" {
+ M1114_GPK_Tan1 {
+  coords 3525.35 190.392 1562.955
+  angleY 141.78
+ }
+ M1114_GPK_Tan2 {
+  coords 3516.201 190.392 1560.62
+  angleY 141.556
+ }
+ M1114_GPK_Tan3 {
+  coords 3506.701 190.392 1558.606
+  angleY 132.829
+ }
+}
