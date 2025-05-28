@@ -30,7 +30,7 @@ GenericEntity RelayEstrapade3 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/
    coords -19.47 36.531 1.213
    angleY -93.309
   }
-  $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+  $grp GenericEntity {
    {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {

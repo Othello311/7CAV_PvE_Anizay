@@ -67,6 +67,6 @@ SCR_AIGroup : "{B50B7BF31273C2A6}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseas
  coords 331.553 -0.015 186.706
  m_faction "FIA"
  m_aUnitPrefabSlots {
-  "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et" "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et"
+  "{234A37EC8608DFAC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_Rifleman_Random.et" "{5F894D964A5D5B57}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_GL_Random.et" "{A5548567111B86FD}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/RandomSoldiers/Character_RHS_RF_MSV_VKPO_DS_AR_Random.et"
  }
 }

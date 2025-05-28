@@ -30,9 +30,12 @@ GenericEntity RelayEstrapade : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/C
    coords -16.915 1.985 4.307
    angleY 101.087
   }
-  $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+  $grp GenericEntity {
    {
     components {
+     FactionAffiliationComponent "{6578F4DE7657C490}" {
+      "faction affiliation" "FIA"
+     }
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
       m_iGroupMultiplier 2

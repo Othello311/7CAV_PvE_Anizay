@@ -42,6 +42,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_SpawnLogic SCR_MenuSpawnLogic "{5CEAA65B714D5CFF}" {
     m_sForcedFaction "US"
    }
+   m_bEnablePauseMenuRespawn 1
   }
   SCR_SpawnProtectionComponent "{5D167A246026C95B}" {
    m_bAllowPlayerSpawnpoints 1
@@ -85,6 +86,9 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
  Factions {
   SCR_CampaignFaction "{50B30C3AF4BFD934}" {
    m_bIsPlayable 0
+   m_aFriendlyFactionsIds {
+    "FIA" "AFRF"
+   }
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
      m_aEntityEntryList {
@@ -543,6 +547,21 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogEntry "{647A4D9EE8101386}" {
          m_sEntityPrefab "{41D35C19173C4849}Prefabs/Vehicles/Helicopters/AH6M/MH6M_Supply.et"
         }
+        SCR_EntityCatalogEntry "{629EFC7206137383}" {
+         m_sEntityPrefab "{32F105CA6D1F32EC}Prefabs/Vehicles/Helicopters/AH6M/AH6M_M134.et"
+        }
+        SCR_EntityCatalogEntry "{629EFC720467968B}" {
+         m_sEntityPrefab "{BA94632A7DD0AF58}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKTO.et"
+        }
+        SCR_EntityCatalogEntry "{629AC41623B6CAB9}" {
+         m_sEntityPrefab "{63DEE0AB6930A90C}Prefabs/Vehicles/Helicopters/AH6M/AH6M_RKT.et"
+        }
+        SCR_EntityCatalogEntry "{62AEBE4EA5FBF967}" {
+         m_sEntityPrefab "{A317D959A4248174}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et"
+        }
+        SCR_EntityCatalogEntry "{62AEBE4EAA104493}" {
+         m_sEntityPrefab "{8E6F86A16EA0D619}Prefabs/Vehicles/Helicopters/AH6M/AH6M_ATGMx2.et"
+        }
         SCR_EntityCatalogEntry "{61CC8991C584BA08}" {
          m_sEntityPrefab "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et"
         }
@@ -894,69 +913,74 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    m_OutlineFactionColor 0.502 0 0 1
    m_sFactionFlag "{DDEC1C47914FEAA6}Assets/Props/Fabric/Flags/Data/Flag_2_3_SovietArmy_BCR.edds"
    m_FactionFlagMaterial "{E7E23C8706EF6147}Assets/Props/Fabric/Flags/Data/Flag_2_3_SovietArmy.emat"
+   m_aFriendlyFactionsIds {
+    "USSR" "AFRF"
+   }
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{60F6DBAB1F48211E}" {
-       m_sEntityPrefab "{EFD9E95B71413C6E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_PL_Random.et"
+       m_sEntityPrefab "{69EE1158717E3029}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_PL.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B828B2B57}" {
-       m_sEntityPrefab "{E55C5AB67AC54638}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Rifleman_Random.et"
+       m_sEntityPrefab "{5029DAD56F75220C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_3.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B82950FE8}" {
-       m_sEntityPrefab "{EFD9E95B71413C6E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_PL_Random.et"
+       m_sEntityPrefab "{A20C632F7690F524}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_PL_2.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B810634A4}" {
-       m_sEntityPrefab "{2113EE7AFFE66688}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_SL_Random.et"
+       m_sEntityPrefab "{F0F0A8C16C9901B9}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_SL.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B82A122A6}" {
-       m_sEntityPrefab "{C8338815A75BDEBB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_MG_Random.et"
+       m_sEntityPrefab "{CF6F87C43052B749}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_MG.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B82D64D4C}" {
-       m_sEntityPrefab "{D402120614D6E643}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_AMG_Random.et"
+       m_sEntityPrefab "{E0E062BD23185D63}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AMG.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B82CBACBF}" {
-       m_sEntityPrefab "{C70E907F4348588B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_AT_Random.et"
+       m_sEntityPrefab "{45D0301F2794BDF8}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AT.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B82FF632E}" {
+       m_sEntityPrefab "{6A5FD56634DE57DE}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_AAT.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B8110D709}" {
-       m_sEntityPrefab "{4C979E19C89FC16A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Sharpshooter_Random.et"
+       m_sEntityPrefab "{DA67D2D95986670E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Sharpshooter_3.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B815FC455}" {
-       m_sEntityPrefab "{5C35EA02B7341881}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Medic_Random.et"
+       m_sEntityPrefab "{02C9F4BB701ABA38}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Medic_2.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B81608C17}" {
-       m_sEntityPrefab "{B80F0843E190EC33}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_RTO_Random.et"
+       m_sEntityPrefab "{20F189AEFC8E2138}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_RTO_3.et"
       }
       SCR_EntityCatalogEntry "{62BEF704CE906C06}" {
-       m_sEntityPrefab "{E55C5AB67AC54638}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Rifleman_Random.et"
+       m_sEntityPrefab "{5029DAD56F75220C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_3.et"
       }
       SCR_EntityCatalogEntry "{62BEF704CF9C9161}" {
-       m_sEntityPrefab "{E55C5AB67AC54638}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Rifleman_Random.et"
+       m_sEntityPrefab "{B5B5962C6390B561}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_2.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B813AAF3E}" {
-       m_sEntityPrefab "{D87665716F12FFA5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Scout_Random.et"
+       m_sEntityPrefab "{B6852AEDAD71AB90}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Scout_RadioRecon.et"
       }
       SCR_EntityCatalogEntry "{6116BA75BA9C0BB7}" {
-       m_sEntityPrefab "{4F82CCEFD7568A0B}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Sapper_Random.et"
+       m_sEntityPrefab "{F42EC47054103CAB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Sapper_2.et"
       }
       SCR_EntityCatalogEntry "{6116B82A9D2C318D}" {
-       m_sEntityPrefab "{EFF50BB1971C0976}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/RandomSoldiers/Character_RHS_RF_MSV_VKPO_3.0_Ammo_Random.et"
+       m_sEntityPrefab "{DA39E2D64AF9A9DB}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Ammo_2.et"
       }
       SCR_EntityCatalogEntry "{5C54C23B81FB97A6}" {
+       m_bEnabled 0
       }
       SCR_EntityCatalogEntry "{6198859A90920BF8}" {
-       m_bEnabled 0
+       m_sEntityPrefab "{BB9DCEEA3CD5A516}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_HeliCrew.et"
       }
       SCR_EntityCatalogEntry "{6198859A91DC250A}" {
-       m_bEnabled 0
+       m_sEntityPrefab "{90AD27FFA9AACA82}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_GL.et"
       }
       SCR_EntityCatalogEntry "{6198859A9257C5B1}" {
-       m_bEnabled 0
+       m_sEntityPrefab "{02C9F4BB701ABA38}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Medic_2.et"
       }
       SCR_EntityCatalogEntry "{6198859A94AE71B0}" {
-       m_bEnabled 0
+       m_sEntityPrefab "{932449E60BEC3A73}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Spotter_2.et"
       }
      }
     }

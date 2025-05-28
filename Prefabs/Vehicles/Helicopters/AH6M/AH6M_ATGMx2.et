@@ -7,8 +7,8 @@ Vehicle : "{C28701D4428959F5}Prefabs/Vehicles/Helicopters/AH6M/AH6M_ATGMx2.et" {
     m_Image "{C5F420E1E3ED2B4F}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_ATGMx2.edds"
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
-      m_BudgetType RANK_CAPTAIN
-      m_Value 5
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
      }
     }
    }

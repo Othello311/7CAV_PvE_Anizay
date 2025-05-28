@@ -11,7 +11,7 @@ GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotted/Slo
     Name "Helipad Armed"
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{6324C08AA8EBF9D4}" {
-      m_Value 10000
+      m_Value 7000
      }
      SCR_EntityBudgetValue "{6324C08AA8E8B677}" {
       m_BudgetType RANK_CORPORAL
@@ -28,6 +28,9 @@ GenericEntity : "{C6B534F64C60C583}PrefabsEditable/Auto/Compositions/Slotted/Slo
   GenericEntity : "{5CEA7B8560FA89D5}Prefabs/Props/Military/Compositions/US/VehicleService_NATO_ARMED.et" {
    ID "65677CE1F4B89CB5"
    components {
+    SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+     m_iRank CORPORAL
+    }
     SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
      m_aAllowedLabels {
       21 51

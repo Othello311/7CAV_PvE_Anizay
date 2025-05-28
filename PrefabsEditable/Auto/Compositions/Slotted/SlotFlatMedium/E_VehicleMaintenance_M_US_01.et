@@ -73,6 +73,18 @@ GenericEntity : "{C0B1ABD67607623A}PrefabsEditable/Auto/Compositions/Slotted/Slo
   }
   GenericEntity : "{5451D97F823101C6}Prefabs/RoleSwitcherCrewman.et" {
    ID "65677CE1EAD8D69F"
+   components {
+    ActionsManagerComponent "{655754A2A0067CF9}" {
+     additionalActions {
+      IA_ChangeRoleUserAction "{656C1268EAE67B85}" {
+       ParentContextList {
+        "main"
+       }
+       m_TargetRole LOGISTIC
+      }
+     }
+    }
+   }
    coords -8.116 -0.148 4.295
    angleY -40.638
   }

@@ -6,7 +6,7 @@ GenericEntity : "{F7DC8BB193BCAF44}PrefabsEditable/Auto/Compositions/Slotted/Slo
     Name "Long Range Antenna"
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EA88D643C6F5270}" {
-      m_Value 15000
+      m_Value 5000
      }
      SCR_EntityBudgetValue "{64DF18C01D8D65B5}" {
       m_BudgetType RANK_MAJOR

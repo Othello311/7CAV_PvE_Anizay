@@ -7,8 +7,8 @@ Vehicle : "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et" {
     m_Image "{6863F91E716AF9EC}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_GAU19.edds"
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
-      m_BudgetType RANK_CAPTAIN
-      m_Value 5
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
      }
     }
    }
