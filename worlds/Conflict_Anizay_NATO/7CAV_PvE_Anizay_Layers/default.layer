@@ -765,18 +765,21 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC54920E6178DE}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC54920D3F893A}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC5492169F76FF}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC54921A374F1D}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC54921DAA854F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5492E7A82019}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5492E8CC8EDF}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC5492EEF0C6D5}" {
@@ -834,15 +837,8 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC5493667DFA5C}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC54938C28E6C9}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogInventoryItem "{64FC5492E7A82019}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogInventoryItem "{64FC5492E8CC8EDF}" {
          m_bEnabled 0
         }
        }
@@ -850,6 +846,9 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA6FA1B8}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5D4A8E6F2C9744D7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{62D2BC22B3D56D88}" {
          m_bEnabled 0
         }
        }
@@ -884,7 +883,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5E18FDD61D7A4DA9}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5F1F701B141FE129}" {
          m_bEnabled 0
@@ -897,7 +895,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA2B2FF4}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5C62F7D8F231A82E}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FE0A9CB5}" {
          m_bEnabled 0
@@ -1264,16 +1261,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
        }
       }
-      SCR_EntityCatalogMultiListEntry "{629AC40653B58D69}" {
-       m_aEntities {
-        SCR_EntityCatalogEntry "{629AC406BDB1BE18}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{629AC406B89807B8}" {
-         m_bEnabled 0
-        }
-       }
-      }
       SCR_EntityCatalogMultiListEntry "{62A546A11317CCC6}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{64CEC9D0C250B23B}" {
@@ -1318,6 +1305,16 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64CEC9D0E1295112}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{629AC40653B58D69}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{629AC406BDB1BE18}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{629AC406B89807B8}" {
          m_bEnabled 0
         }
        }
