@@ -837,6 +837,14 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{64FC5493667DFA5C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493667DFBEA}" {
+           m_iSupplyCost 600
+          }
+         }
+         m_aLabels {
+          47
+         }
         }
         SCR_EntityCatalogInventoryItem "{64FC54938C28E6C9}" {
          m_bEnabled 0
@@ -847,6 +855,13 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5D4A8E6F2C9744D7}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54935ACE9A30}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54935ACE9B67}" {
+           m_iSupplyCost 100
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{62D2BC22B3D56D88}" {
          m_bEnabled 0
@@ -1342,6 +1357,14 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{60F6DBAB1F48211E}" {
        m_sEntityPrefab "{69EE1158717E3029}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_PL.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogEditorData "{60F6DBAB1A6D15AE}" {
+         m_eValidEditorModes 33
+        }
+        SCR_EntityCatalogSpawnerData "{657AE893E09C7C24}" {
+         m_eSlotTypes GROUP_SMALL
+        }
+       }
       }
       SCR_EntityCatalogEntry "{5C54C23B828B2B57}" {
        m_sEntityPrefab "{5029DAD56F75220C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_Rifleman_3.et"
@@ -1393,6 +1416,11 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
       SCR_EntityCatalogEntry "{6198859A90920BF8}" {
        m_sEntityPrefab "{BB9DCEEA3CD5A516}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_HeliCrew.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogEditorData "{6198859ACDD41862}" {
+         m_eValidEditorModes 33
+        }
+       }
       }
       SCR_EntityCatalogEntry "{6198859A91DC250A}" {
        m_sEntityPrefab "{90AD27FFA9AACA82}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Character_RHS_RF_MSV_VKPO_DS_GL.et"
@@ -1475,6 +1503,7 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
        m_sEntityPrefab "{F6CEAA1D2B0A7ED0}Prefabs/Groups/OPFOR/RHS_AFRF/MSV/VKPO_Demiseason/Group_RHS_RF_MSV_VKPO_DS_RifleSquad.et"
        m_aEntityDataList {
         SCR_EntityCatalogEditorData "{6052F82B06AA6BAB}" {
+         m_eValidEditorModes 33
         }
        }
       }

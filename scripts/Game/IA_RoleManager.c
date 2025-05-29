@@ -64,7 +64,7 @@
 	        m_RoleLimits[IA_PlayerRole.ANTITANK_LIGHT] = 12;
 	        m_RoleLimits[IA_PlayerRole.ANTITANK_HEAVY] = 4; // More restricted for balance
 	        m_RoleLimits[IA_PlayerRole.TEAMLEADER] = 12;
-	        m_RoleLimits[IA_PlayerRole.PILOT] = 10;
+	        m_RoleLimits[IA_PlayerRole.PILOT] = 5;
 	        m_RoleLimits[IA_PlayerRole.CREWMAN] = 10;
 			m_RoleLimits[IA_PlayerRole.LOGISTIC] = 20;
 	        
