@@ -776,12 +776,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogInventoryItem "{64FC54921DAA854F}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogInventoryItem "{64FC5492E7A82019}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogInventoryItem "{64FC5492E8CC8EDF}" {
-         m_bEnabled 0
-        }
         SCR_EntityCatalogInventoryItem "{64FC5492EEF0C6D5}" {
          m_bEnabled 0
         }
@@ -847,6 +841,12 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          }
         }
         SCR_EntityCatalogInventoryItem "{64FC54938C28E6C9}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5492E7A82019}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5492E8CC8EDF}" {
          m_bEnabled 0
         }
        }
@@ -1639,6 +1639,9 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
     }
    }
    m_BaseBuildingHQ "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et"
+  }
+  SCR_CampaignFaction "{657D0218907D49B9}" {
+   FactionColor 0.502 0 0 1
   }
  }
  m_aRanks {
