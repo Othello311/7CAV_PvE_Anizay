@@ -12,9 +12,15 @@ Vehicle : "{AF950919C81D91B4}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et" {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 900
      }
+     SCR_EntityBudgetValue "{5EE71CA1677C234F}" {
+     }
      SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
       m_BudgetType RANK_CORPORAL
       m_Value 2
+     }
+     SCR_EntityBudgetValue "{658822D886F2DAAA}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 300
      }
     }
    }

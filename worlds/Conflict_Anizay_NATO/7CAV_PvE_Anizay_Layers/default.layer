@@ -440,6 +440,89 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogEntry "{63229A273663BD11}" {
          m_sEntityPrefab "{40B400DD2048C9A6}Prefabs/Vehicles/Wheeled/Conflict_Variants/LAV25_Conflict.et"
         }
+        SCR_EntityCatalogEntry "{63229A2701EE856C}" {
+         m_sEntityPrefab "{F5C9E8C272306337}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Cage_Tan.et"
+         m_bEnabled 1
+        }
+        SCR_EntityCatalogEntry "{6484BA2451EAD6CE}" {
+         m_sEntityPrefab "{B139673755B7015F}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon_Cage_Tan.et"
+         m_bEnabled 1
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6484BA2451EAD583}" {
+           m_eValidEditorModes BUILDING
+          }
+          SCR_EntityCatalogSpawnerData "{6588261DEB907B9E}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{63293C72282D828D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C7240FEA2EA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C7241B8F920}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724124DA88}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724EBEED48}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724E338166}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724FBCDA36}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724F3E299D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724CBBDEF3}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724C20B18B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724DBB8C96}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63293C724D7E8CEE}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64F45720E89DCFC7}" {
+        }
+        SCR_EntityCatalogEntry "{64F059F166A387A6}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64F059F09C7FCC69}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64F059F09F5F66E6}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64621AEFB0BB1287}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64621AEFA107D938}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64621AE131728A01}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64621AE1362ACD21}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64621AEFA9ADFD66}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64621AEFA8E868E4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64621AE124215E06}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{6064E51C196084B2}" {
          m_sEntityPrefab "{9CB496688A3BCC3E}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest.et"
          m_aEntityDataList {
@@ -571,6 +654,33 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
       SCR_EntityCatalogMultiListEntry "{6546B3119622C765}" {
        m_aEntities {
+        SCR_EntityCatalogEntry "{65826B363B2CB684}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B3632613E47}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B363413C7FB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B363628300C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B362B07BD9E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B362D28AAD3}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B362F2DD237}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B362191B7AC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65826B3623D27D84}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{6576060405E51256}" {
          m_bEnabled 0
         }
@@ -586,6 +696,9 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{6546B311AAEE930B}" {
+        }
+        SCR_EntityCatalogEntry "{6584482C3D1021D8}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{6546B311FAE5252F}" {
          m_bEnabled 0
@@ -651,6 +764,30 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{6576061334659085}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6584598E80870EBF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6584598EB9CBC4D5}" {
+         m_sEntityPrefab "{B38EF3FA64D6F687}Prefabs/Vehicles/Wheeled/M1113/M1113_Unarmored_Tan.et"
+        }
+        SCR_EntityCatalogEntry "{6584598EBBA90CB3}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6584598EBFBFAABD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{657F68ACE349B305}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{657F68ACE750B6D8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{657F68AC1B24993E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{657F68AC18A69720}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{6546B64E17C9CE21}" {
@@ -1350,7 +1487,7 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    m_sFactionFlag "{DDEC1C47914FEAA6}Assets/Props/Fabric/Flags/Data/Flag_2_3_SovietArmy_BCR.edds"
    m_FactionFlagMaterial "{E7E23C8706EF6147}Assets/Props/Fabric/Flags/Data/Flag_2_3_SovietArmy.emat"
    m_aFriendlyFactionsIds {
-    "USSR" "AFRF"
+    "USSR" "RHS_AFRF"
    }
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
@@ -1641,7 +1778,144 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    m_BaseBuildingHQ "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et"
   }
   SCR_CampaignFaction "{657D0218907D49B9}" {
-   FactionColor 0.502 0 0 1
+   FactionKey "RHS_AFRF"
+   FactionColor 0.555 0.002 0 1
+   m_iOrder 1
+   m_OutlineFactionColor 0.168 0.006 0.007 1
+   m_NotificationFactionColor 0.855 0.031 0.028 1
+   m_NotificationTextFactionColor 0.521 0.021 0.019 1
+   m_bIsPlayable 0
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_sFactionFlag "{72E8159766C00C3D}UI/Textures/Flags/rhs_flag_rus.edds"
+   m_FactionFlagMaterial "{15AB376863D1724E}Assets/Props/Fabric/Flags/Data/Flag_1_2_Russia.emat"
+   m_FactionLabel FACTION_RHS_AFRF
+   m_aFriendlyFactionsIds {
+    "FIA" "USSR"
+   }
+   m_sFactionRadioEncryptionKey "coldBorscht"
+   m_iFactionRadioFrequency 42000
+   m_aRanks {
+    SCR_CharacterRank "{528E9D9FAAB617C6}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB192253}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB87F519}" {
+    }
+    SCR_CharacterRank "{528E9D9FA4EA5C39}" {
+    }
+    SCR_CharacterRank "{528E9D9FA563C005}" {
+    }
+    SCR_CharacterRank "{528E9D9FA64A043C}" {
+    }
+    SCR_CharacterRank "{528E9D9FA77F696E}" {
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5D4A87E91A3951E1}" {
+    }
+    SCR_EntityCatalogMultiList "{5D4A87E8100151BB}" {
+    }
+    SCR_EntityCatalogMultiList "{5D4A87E82561D86F}" {
+    }
+    SCR_EntityCatalog "{5D4A87E87C747943}" {
+    }
+    SCR_EntityCatalogMultiList "{5D4A87EAF0298FBD}" {
+    }
+   }
+   m_sGroupFlagsImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+   m_sGroupFlagsImageSetOutlines "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+   m_aFlagNames {
+    "infantry" "amphibious" "anti-air" "anti-air-artilery" "anti-armor-motorized" "antiarmor" "armored" "artillery" "combined" "helicopter" "helicopter-attack" "infantry-air" "machinegun" "maintenance" "medical" "mortar" "motorized" "motorized-infantry" "recon" "recon-motorized" "signal" "sniper" "supply-motorized" "undefined"
+   }
+   m_aBaseCallsigns {
+    SCR_MilitaryBaseCallsign "{5C9108F95F3FB520}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F0034DB}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F6514E7}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F4EE8BF}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F5021F9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FBA4C89}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F9C00A9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FE17E10}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FCBA475}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E2B2963}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E3040F5}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E17C67D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E797F8A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E431F83}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EA7F87E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E88C6B9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EEDE322}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EF6244A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EDAF04A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D3CCF27}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D076483}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D68D0F3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D4C0F8E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D56EEEE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95DBA92EE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C69680D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C4FD930}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C5255FD}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CB621AE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C9545BC}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CFE26C3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CDD263C}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B27128C}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B08D83D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B6D3FC2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B712949}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B57D185}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95BB17114}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B97C054}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95BFC33E5}" {
+    }
+   }
+   m_DefendersGroupPrefab "{0481FBC6C2824C19}Prefabs/Groups/Campaign/Group_RF_MSV_EMR_Defenders.et"
+   m_aStartingVehicles {
+    "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+   }
+   m_MobileHQPrefab "{E171C9F443958371}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyEast.et"
+   m_RadioPrefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+   m_BaseBuildingHQ "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et"
   }
  }
  m_aRanks {
