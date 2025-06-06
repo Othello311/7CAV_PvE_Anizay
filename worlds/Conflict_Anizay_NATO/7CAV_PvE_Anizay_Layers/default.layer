@@ -280,6 +280,110 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    }
    m_sFactionFlag "{B9D23757C6FBE3A3}Assets/cav2_800_x_400.edds"
    m_FactionFlagMaterial "{D13494DB13879D95}Assets/7CavBLK.emat"
+   m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+    m_aCompanyNames {
+     SCR_CallsignInfo "{55CCB792CD021D5C}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792CCD598D3}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792CCB4D441}" {
+     }
+    }
+    m_aPlatoonNames {
+     SCR_CallsignInfo "{55CCB792CE6E998D}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792CE18FB44}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+     }
+    }
+    m_aSquadNames {
+     SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792D13759D8}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792D1218E95}" {
+      m_sCallsign ""
+     }
+     SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+      m_sCallsign ""
+     }
+    }
+   }
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{64F422F3C0CC60EA}" {
+     m_sGroupName "Gunslinger-1"
+     m_sGroupDescription "Light Infantry"
+     m_iGroupSize 12
+    }
+    SCR_GroupPreset "{652EF1991077338E}" {
+     m_sGroupName "Gunslinger-2"
+     m_sGroupDescription "Light Infantry"
+     m_iGroupSize 12
+     m_iRadioFrequency 39000
+    }
+    SCR_GroupPreset "{658C021A66B1778D}" {
+     m_sGroupName "Viking-1"
+     m_sGroupDescription "Motorized Infantry"
+     m_iGroupSize 12
+     m_iRadioFrequency 40000
+    }
+    SCR_GroupPreset "{658C09D2EAB6408B}" {
+     m_sGroupName "Sierra"
+     m_sGroupDescription "APC Crews"
+     m_iGroupSize 8
+     m_iRadioFrequency 41000
+    }
+    SCR_GroupPreset "{658C021A654DC968}" {
+     m_sGroupName "Buffalo "
+     m_sGroupDescription "Rotary Transport"
+     m_iGroupSize 4
+     m_iRadioFrequency 42000
+    }
+    SCR_GroupPreset "{658C09D17626BF81}" {
+     m_sGroupName "Bison"
+     m_sGroupDescription "Rotary CAS"
+     m_iGroupSize 2
+     m_iRadioFrequency 43000
+    }
+    SCR_GroupPreset "{658C09D1741D058F}" {
+     m_sGroupName "Raven"
+     m_sGroupDescription "Light Rotary Transport"
+     m_iGroupSize 2
+     m_iRadioFrequency 44000
+    }
+    SCR_GroupPreset "{658C09D2BDC2E167}" {
+     m_sGroupName "Sparrow"
+     m_sGroupDescription "Light Rotary CAS"
+     m_iGroupSize 2
+     m_iRadioFrequency 45000
+    }
+    SCR_GroupPreset "{658C0219328064CC}" {
+     m_sGroupName "Helios"
+     m_sGroupDescription "Logistics"
+     m_iGroupSize 6
+     m_iRadioFrequency 46000
+    }
+    SCR_GroupPreset "{658C0219315534FF}" {
+     m_sGroupName "Command"
+     m_sGroupDescription "Command and GM"
+     m_iGroupSize 4
+     m_iRadioFrequency 47000
+    }
+   }
+   m_bCreateOnlyPredefinedGroups 1
    m_aRanks {
     SCR_CharacterRank "{632072CA55836BA0}" {
      m_iRank COLONEL
@@ -455,6 +559,68 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
+        SCR_EntityCatalogEntry "{6064E51C196084B2}" {
+         m_sEntityPrefab "{9CB496688A3BCC3E}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6064E51C31106C57}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6064E51C30E92A0B}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{64FC66A2D1567E2F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{652EF18566137FD2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2DE217802}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2A34DBB47}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2A68AA63B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{651903533D176F2A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2AA303EE8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2AED93180}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2ACBC58A0}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2B2BFAA28}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2B04C38C5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2B66F3AC3}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A282494EDB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2803E8CF1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A287B4F96A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2858E0206}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A28B6BAB0B}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{63293C72282D828D}" {
          m_bEnabled 0
         }
@@ -521,68 +687,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{64621AE124215E06}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{6064E51C196084B2}" {
-         m_sEntityPrefab "{9CB496688A3BCC3E}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest.et"
-         m_aEntityDataList {
-          SCR_EntityCatalogEditorData "{6064E51C31106C57}" {
-           m_eValidEditorModes 33
-          }
-          SCR_EntityCatalogSpawnerData "{6064E51C30E92A0B}" {
-           m_eSlotTypes 24
-          }
-         }
-        }
-        SCR_EntityCatalogEntry "{64FC66A2D1567E2F}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{652EF18566137FD2}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2DE217802}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2A34DBB47}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2A68AA63B}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{651903533D176F2A}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2AA303EE8}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2AED93180}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2ACBC58A0}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2B2BFAA28}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2B04C38C5}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2B66F3AC3}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A282494EDB}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2803E8CF1}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A287B4F96A}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2858E0206}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A28B6BAB0B}" {
          m_bEnabled 0
         }
        }
