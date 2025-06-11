@@ -105,6 +105,10 @@ GenericEntity MilitaryBaseAirfield3 : "{1391CE8C0E255636}Prefabs/Systems/Militar
   }
  }
 }
+Tank M2A2_Desert1 : "{760E632952980B32}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et" {
+ coords 3520.921 190.392 1540.253
+ angleY 11.803
+}
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  {
   components {

@@ -12,6 +12,9 @@ Vehicle : "{F0325941727F21F0}Prefabs/Vehicles/Wheeled/M997/M997A3_maxi_ambulance
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_Image "{4516BE507DE1BBD1}UI/EditorPreviews/Vehicles/Wheeled/M997/M997A3_Tan.edds"
+    m_aAuthoredLabels {
+     3 24 280 36 200
+    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 500

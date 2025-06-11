@@ -6,7 +6,7 @@ Vehicle : "{EDFD2D4D40AAE666}Prefabs/Vehicles/Helicopters/AH6M/MH6M_Supply.et" {
     Name "#AH6M-Vehicle_MH6M_Supply_Name"
     m_Image "{B9BAF76D005BAB9A}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/MH6M_Supply.edds"
     m_aAuthoredLabels + {
-     199999901
+     200
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {

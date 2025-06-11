@@ -18,6 +18,7 @@ Vehicle : "{44E2468321E19451}Prefabs/Vehicles/Wheeled/Stryker/M1296/Stryker_Drag
      }
      SCR_EntityBudgetValue "{60DC0D1B4DFD4443}" {
       m_BudgetType RANK_SERGEANT
+      m_Value 3
      }
      SCR_EntityBudgetValue "{6588261C08DADB2C}" {
       m_BudgetType WCS_XP_COST

@@ -5,6 +5,9 @@ Vehicle : "{793F69FB20D1CB7B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_supp
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "MH60 Blackhawk - Supply Transport"
     m_Image "{8BF9DED50080C77B}UI/AUS_UH60_supplytransporter.edds"
+    m_aAuthoredLabels {
+     51 21 199999905
+    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 500

@@ -71,6 +71,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  m_iSuppliesReplenishThreshold 1000
  m_iQuickSuppliesReplenishThreshold 40
  m_fQuickSuppliesReplenishMultiplier 2
+ m_iSuppliesArrivalInterval 20
  m_iRegularSuppliesIncome 50
  m_iRegularSuppliesIncomeBase 10
  m_iRegularSuppliesIncomeExtra 5
@@ -385,6 +386,80 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    }
    m_bCreateOnlyPredefinedGroups 1
    m_aRanks {
+    SCR_CharacterRank "{528E9D967C251E5F}" {
+     m_sRankName "#AR-Rank_WestPrivate"
+     m_sRankNameUpper "#AR-Rank_WestPrivate-UC"
+     m_sRankNameShort "#AR-Rank_WestPrivateShort"
+     m_sInsignia "AR_Rank_OR-2"
+    }
+    SCR_CharacterRank "{528E9D967C638136}" {
+     m_iRank CORPORAL
+     m_sRankName "#AR-Rank_WestCorporal"
+     m_sRankNameUpper "#AR-Rank_WestCorporal-UC"
+     m_sRankNameShort "#AR-Rank_WestCorporalShort"
+     m_sInsignia "AR_Rank_OR-4_C"
+    }
+    SCR_CharacterRank "{528E9D967CA0C01E}" {
+     m_iRank SERGEANT
+     m_sRankName "#AR-Rank_WestSergeant"
+     m_sRankNameUpper "#AR-Rank_WestSergeant-UC"
+     m_sRankNameShort "#AR-Rank_WestSergeantShort"
+     m_sInsignia "AR_Rank_OR-5"
+    }
+    SCR_CharacterRank "{528E9D967C9A9530}" {
+     m_iRank LIEUTENANT
+     m_sRankName "#AR-Rank_WestLieutenant"
+     m_sRankNameUpper "#AR-Rank_WestLieutenant-UC"
+     m_sRankNameShort "#AR-Rank_WestLieutenantShort"
+     m_sInsignia "AR_Rank_OF-1_1st"
+    }
+    SCR_CharacterRank "{528E9D967CD71D35}" {
+     m_iRank CAPTAIN
+     m_sRankName "#AR-Rank_WestCaptain"
+     m_sRankNameUpper "#AR-Rank_WestCaptain-UC"
+     m_sRankNameShort "#AR-Rank_WestCaptainShort"
+     m_sInsignia "AR_Rank_OF-2"
+    }
+    SCR_CharacterRank "{528E9D967D0F747E}" {
+     m_iRank MAJOR
+     m_sRankName "#AR-Rank_WestMajor"
+     m_sRankNameUpper "#AR-Rank_WestMajor-UC"
+     m_sRankNameShort "#AR-Rank_WestMajorShort"
+     m_sInsignia "AR_Rank_OF-3"
+    }
+    SCR_CharacterRank "{528E9D967D8EBCCC}" {
+     m_iRank RENEGADE
+     m_sRankName "#AR-Rank_Renegade"
+     m_sRankNameUpper "#AR-Rank_Renegade-UC"
+    }
+    SCR_CharacterRank "{62D22AB7FECA2BC0}" {
+     m_iRank COLONEL
+     m_sRankName "#AR-Rank_WestColonel"
+     m_sRankNameUpper "#AR-Rank_WestColonel-UC"
+     m_sRankNameShort "#AR-Rank_WestColonelShort"
+     m_sInsignia "AR_Rank_OF-5  "
+    }
+    SCR_CharacterRank "{62D22AB7FFEA6C48}" {
+     m_iRank GENERAL
+     m_sRankName "#AR-Rank_WestGeneral"
+     m_sRankNameUpper "#AR-Rank_WestGeneral-UC"
+     m_sRankNameShort "#AR-Rank_WestGeneralShort"
+     m_sInsignia "AR_Rank_OF-9"
+    }
+    SCR_CharacterRank "{64F422F3D0FD4790}" {
+     m_iRank COLONEL
+     m_sRankName "#AR-Rank_WestMajor"
+     m_sRankNameUpper "#AR-Rank_WestMajor-UC"
+     m_sRankNameShort "#AR-Rank_WestMajorShort"
+     m_sInsignia "AR_Rank_OF-3"
+    }
+    SCR_CharacterRank "{64F422F3D1FA158B}" {
+     m_iRank GENERAL
+     m_sRankName "General"
+     m_sRankNameUpper "Gel"
+     m_sRankNameShort "Gel"
+     m_sInsignia "AR_Rank_OF-3"
+    }
     SCR_CharacterRank "{632072CA55836BA0}" {
      m_iRank COLONEL
      m_sRankName "Colonel"
@@ -458,6 +533,15 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
        }
       }
+      SCR_EntityCatalogEntry "{62061C9353BD4849}" {
+       m_sEntityPrefab "{E3BDF4CDFB758ABA}Prefabs/Characters/Campaign/Final/CPR_US_Player_MG.et"
+      }
+      SCR_EntityCatalogEntry "{62061C935405739F}" {
+       m_sEntityPrefab "{737B9AB32C3156E3}Prefabs/Characters/Campaign/Final/CPR_US_Player_Pilot.et"
+      }
+      SCR_EntityCatalogEntry "{62061C9355083213}" {
+       m_sEntityPrefab "{6B2BBEF75627CDAE}Prefabs/Characters/Campaign/Final/CPR_US_Player_SquadLead.et"
+      }
       SCR_EntityCatalogEntry "{62061C939063BC8E}" {
        m_sEntityPrefab "{E3BDF4CDFB758ABA}Prefabs/Characters/Campaign/Final/CPR_US_Player_MG.et"
        m_aEntityDataList {
@@ -498,6 +582,9 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_sEntityPrefab "{AFF0BC79FF2A06B3}Prefabs/Vehicles/Wheeled/M1114/GPK/M1114_GPK_Tan_M240.et"
          m_bEnabled 1
          m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10588CBB27}" {
+           m_eValidEditorModes 33
+          }
           SCR_EntityCatalogSpawnerData "{655F103A07631DB2}" {
            m_eSlotTypes 24
           }
@@ -510,6 +597,9 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogEntry "{605098A5CD78830A}" {
          m_sEntityPrefab "{269AF1617ECB82AC}Prefabs/M1114/kiok_m1114_armed_m2tower_tan.et"
          m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB1023178C31}" {
+           m_eValidEditorModes 33
+          }
           SCR_EntityCatalogSpawnerData "{655F103BA1348450}" {
            m_eSlotTypes 24
           }
@@ -519,15 +609,73 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_sEntityPrefab "{0FA5F0E25A33CF09}Prefabs/Vehicles/Wheeled/M1114/GPK/M1114_GPK_Tan_MK19.et"
          m_bEnabled 1
         }
+        SCR_EntityCatalogEntry "{60569780561141EC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6056978054CDBCDD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A5E34E23E1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826CAEE99CC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A5FC332A75}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826C9B9A827}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A5080B4108}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826C833965C}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{605098A51F263850}" {
          m_sEntityPrefab "{D3C8500942A0242C}Prefabs/Vehicles/Wheeled/M997/M997A3_maxi_ambulance_Tan.et"
          m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB1019C5DDFF}" {
+           m_eValidEditorModes 33
+          }
           SCR_EntityCatalogSpawnerData "{655F103BD57E637B}" {
            m_eSlotTypes VEHICLE_SMALL
           }
          }
         }
         SCR_EntityCatalogEntry "{5D8951ED51D7359E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A52C667A85}" {
+         m_sEntityPrefab "{4E2F7BE504E64AD9}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10EEE810B4}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5D234826D775735C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A525B4AB0F}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10F69F36CE}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5D234826D7E0C9A8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A54E39C18C}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10CE829778}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5D234826D52D0504}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{605098A545E912FC}" {
@@ -539,10 +687,84 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           SCR_EntityCatalogEditorData "{6052BB10DE50FA41}" {
            m_eValidEditorModes EDIT
           }
+          SCR_EntityCatalogSpawnerData "{5D2473212D8AA734}" {
+           m_eSlotTypes VEHICLE_MEDIUM
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{605098A55E8A4C93}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10D919A793}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5C76BEF2BF41FF08}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A573358E03}" {
+         m_sEntityPrefab "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10AC5B3263}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{605098A5756ED0D1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A557B1F6E0}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10B66A7FCC}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5C76BEF2A52AEAA2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A53304A4F3}" {
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10FB989E56}" {
+           m_eValidEditorModes 33
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5D234826D6BF5CE8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A5D7AEAD02}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826CA7617D2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{605098A507386856}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63211D5859667C6B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5D234826C8C740EF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{63211D585BB7CC8D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{62ACD28F4C8F545C}" {
+         m_sEntityPrefab "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{62ACD28FAD547DD7}" {
+          }
+          SCR_EntityCatalogSpawnerData "{62ACD28FACE8E1CC}" {
+           m_eSlotTypes VEHICLE_MEDIUM
+          }
          }
         }
         SCR_EntityCatalogEntry "{63229A273663BD11}" {
          m_sEntityPrefab "{40B400DD2048C9A6}Prefabs/Vehicles/Wheeled/Conflict_Variants/LAV25_Conflict.et"
+        }
+        SCR_EntityCatalogEntry "{62ED09109EEAE61A}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{63229A2701EE856C}" {
          m_sEntityPrefab "{F5C9E8C272306337}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Cage_Tan.et"
@@ -559,66 +781,43 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
-        SCR_EntityCatalogEntry "{6064E51C196084B2}" {
-         m_sEntityPrefab "{9CB496688A3BCC3E}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest.et"
-         m_aEntityDataList {
-          SCR_EntityCatalogEditorData "{6064E51C31106C57}" {
-           m_eValidEditorModes 33
-          }
-          SCR_EntityCatalogSpawnerData "{6064E51C30E92A0B}" {
-           m_eSlotTypes 24
-          }
-         }
-        }
-        SCR_EntityCatalogEntry "{64FC66A2D1567E2F}" {
+        SCR_EntityCatalogEntry "{6484EB5D58547F8C}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{652EF18566137FD2}" {
+        SCR_EntityCatalogEntry "{63106176246E1DCA}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2DE217802}" {
+        SCR_EntityCatalogEntry "{631061760764F1F0}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2A34DBB47}" {
+        SCR_EntityCatalogEntry "{6310617601F9D74C}" {
+         m_sEntityPrefab "{760E632952980B32}Prefabs/Vehicles/Tracked/BFV/M2A2_Desert.et"
+        }
+        SCR_EntityCatalogEntry "{6477546EF010635C}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2A68AA63B}" {
+        SCR_EntityCatalogEntry "{6477546EF2D4C111}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{651903533D176F2A}" {
+        SCR_EntityCatalogEntry "{6477546EF3C50E02}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2AA303EE8}" {
+        SCR_EntityCatalogEntry "{64D93152D614DEDE}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2AED93180}" {
+        SCR_EntityCatalogEntry "{64D93152C9319825}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2ACBC58A0}" {
+        SCR_EntityCatalogEntry "{64D93152C860054F}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2B2BFAA28}" {
+        SCR_EntityCatalogEntry "{64D93152CB4A1205}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2B04C38C5}" {
+        SCR_EntityCatalogEntry "{64D93152CB9C147D}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64FC66A2B66F3AC3}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A282494EDB}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2803E8CF1}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A287B4F96A}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A2858E0206}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64FC66A28B6BAB0B}" {
+        SCR_EntityCatalogEntry "{64D93152CAF3E729}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{63293C72282D828D}" {
@@ -689,6 +888,68 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogEntry "{64621AE124215E06}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogEntry "{6064E51C196084B2}" {
+         m_sEntityPrefab "{9CB496688A3BCC3E}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyWest.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6064E51C31106C57}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6064E51C30E92A0B}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{64FC66A2D1567E2F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{652EF18566137FD2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2DE217802}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2A34DBB47}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2A68AA63B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{651903533D176F2A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2AA303EE8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2AED93180}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2ACBC58A0}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2B2BFAA28}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2B04C38C5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2B66F3AC3}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A282494EDB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2803E8CF1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A287B4F96A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A2858E0206}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64FC66A28B6BAB0B}" {
+         m_bEnabled 0
+        }
        }
       }
       SCR_EntityCatalogMultiListEntry "{60569780DC27DDBC}" {
@@ -698,13 +959,53 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogEntry "{60C3186FC18A1A22}" {
         }
+        SCR_EntityCatalogEntry "{627C91450E3D412F}" {
+         m_sEntityPrefab "{21E9A875C0A3C409}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed_gunship_HE.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{627C91450E3D40CC}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{627C91450E3D40C0}" {
+           m_eSlotTypes VEHICLE_LARGE
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{627C914502B929C7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{61C4880471FBAF08}" {
+         m_sEntityPrefab "{F3E52CC19597F06E}Prefabs/Vehicles/Helicopters/UH1H/UH1H_supply.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10BA6FF517}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{5D2473213748C772}" {
+           m_eSlotTypes VEHICLE_LARGE
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6153338A6DEBC9F4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{61769ACA86F5CD9D}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{61769ACA8455D954}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{62A57B0A2BA357B3}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{62D910351321E60C}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogEntry "{62B6779FCA6616C7}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{62D910351F3F71B5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{631CCD912C8298A2}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{6322482DE9D572AF}" {
@@ -724,8 +1025,150 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
+        SCR_EntityCatalogEntry "{62477126C211981A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{629653580D8E79A7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{62477125755975CF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{627818D901239FFC}" {
+        }
+        SCR_EntityCatalogEntry "{6296C7DF860009AC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{629E3189B226081C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{62FD11293B7F8FFD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{61DADDDC7C673EA4}" {
+         m_sEntityPrefab "{420562B2B5D106C3}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_unarmed.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{61DADDDC16609EB9}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{61DADDDC1BB63544}" {
+           m_eSlotTypes VEHICLE_MEDIUM
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{631AC700BF283D17}" {
+         m_sEntityPrefab "{229994A36AD543F6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_Blank.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{62771B99C86F785B}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{62771B99FDBDDD07}" {
+           m_eSlotTypes VEHICLE_LARGE
+           m_aVariantData {
+            SCR_SpawnerVariantData "{631AC700506C35FF}" {
+             m_sVariantPrefab "{229994A36AD543F6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_Blank.et"
+            }
+            SCR_SpawnerVariantData "{631AC70045DDE4B0}" {
+             m_sVariantPrefab "{C5534EAA593596B6}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_61.et"
+            }
+            SCR_SpawnerVariantData "{631AC7004299999D}" {
+             m_sVariantPrefab "{A9077A4AE5F11998}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60M_SOAR_62.et"
+            }
+           }
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{64DD11F83E00D0DB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DD11F80462BE7E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DD11F8049FD5F0}" {
+        }
+        SCR_EntityCatalogEntry "{64DEFC8B7531996F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DEFC8B7A02A951}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DD11F805EE4D49}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DD11F8065CD369}" {
+        }
+        SCR_EntityCatalogEntry "{64DEFC8B561536EF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DEFC8B638AB584}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DD11F806B5DC63}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DEFC8B5FA3FC5D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DEFC8B6C6B4998}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DD11F800770CE4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DEFC8B59FC7BC8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{631F67E1E4E37474}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{631F67E1E5E83066}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DB3D4F0DDFF7A1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DB3D4F0E2268FD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64CC2039C12882EC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64CC2039C606127D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64CC2039C713010D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DB3D4F090FF0F7}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64DB3D4F0A4E5217}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{62B3432B931CB167}" {
+         m_sEntityPrefab "{E23BB241D2645937}Prefabs/Vehicles/Helicopters/AH6M/AH6M_ATGMx1.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10BA6FF517}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{5D2473213748C772}" {
+           m_eSlotTypes VEHICLE_LARGE
+          }
+         }
+        }
         SCR_EntityCatalogEntry "{62B0FD8D988BDE0D}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{62B3432B994FD679}" {
+         m_sEntityPrefab "{6161681968CBF6E4}Prefabs/Vehicles/Helicopters/AH6M/AH6M_AIM92x1.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6052BB10BA6FF517}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{5D2473213748C772}" {
+           m_eSlotTypes VEHICLE_LARGE
+          }
+         }
         }
         SCR_EntityCatalogEntry "{62710D9BD7AAF6E8}" {
          m_sEntityPrefab "{8ADF3E7C1D5BC6EF}Prefabs/Vehicles/Helicopters/AH6M/MH6M.et"
@@ -753,6 +1196,51 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogEntry "{61CC89921508D08D}" {
          m_sEntityPrefab "{793F69FB20D1CB7C}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_supplytransporter.et"
+        }
+        SCR_EntityCatalogEntry "{625CB2572475CA9B}" {
+         m_sEntityPrefab "{847A4C8E73A7C186}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Medical.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{61DADDDC16609EB9}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{61DADDDC1BB63544}" {
+           m_eSlotTypes VEHICLE_MEDIUM
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{62771B99D0EAC646}" {
+         m_sEntityPrefab "{651ED68285C35E99}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_MH60_DAP_FFAR.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{62771B99C86F785B}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{62771B99FDBDDD07}" {
+           m_eSlotTypes VEHICLE_LARGE
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{646A5611899BF52F}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{64F43E811EA73AE4}" {
+         m_bEnabled 1
+        }
+        SCR_EntityCatalogEntry "{646A97F57AEA7646}" {
+         m_bEnabled 1
+        }
+        SCR_EntityCatalogEntry "{64F43E81118991E1}" {
+         m_bEnabled 1
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{63396D2EDACF035A}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{63396D2EC962BE11}" {
+        }
+        SCR_EntityCatalogEntry "{64D573ECFCB9DB33}" {
+        }
+        SCR_EntityCatalogEntry "{64D573ECF0A4B65A}" {
         }
        }
       }
@@ -803,6 +1291,17 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogEntry "{6584482C3D1021D8}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{6584482C3C48EE5B}" {
+         m_sEntityPrefab "{16CAFDD1FC131098}Prefabs/Vehicles/Wheeled/M1097/M1097_Ammo_Tan.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6584482C3C48EE09}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6584482C3C48EE0C}" {
+           m_eSlotTypes 24
+          }
+         }
         }
         SCR_EntityCatalogEntry "{6546B311FAE5252F}" {
          m_bEnabled 0
@@ -882,6 +1381,30 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogEntry "{6584598EBFBFAABD}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogEntry "{6584598EB084861D}" {
+         m_sEntityPrefab "{D6380688C02723E1}Prefabs/Vehicles/Wheeled/M1113/M134/M1113_Unarmored_M134.et"
+         m_bEnabled 0
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6584598EB084B9FA}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6584598EB084B9FE}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6584598EB792D1C9}" {
+         m_sEntityPrefab "{0F958817F815C114}Prefabs/Vehicles/Wheeled/M1113/M134/M1113_Unarmored_M134_Tan.et"
+         m_bEnabled 0
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6584598EB792D1BF}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6584598EB792D1B2}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
         SCR_EntityCatalogEntry "{657F68ACE349B305}" {
          m_bEnabled 0
         }
@@ -893,6 +1416,30 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogEntry "{657F68AC18A69720}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{657F68AC1826AB82}" {
+         m_sEntityPrefab "{00442AE4C9E7DA15}Prefabs/Vehicles/Wheeled/M1113/M134/M1113_M134.et"
+         m_bEnabled 0
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{657F68AC1826AB7E}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{657F68AC1826AB71}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{657F68AC19BF03DF}" {
+         m_sEntityPrefab "{2533112C9D322628}Prefabs/Vehicles/Wheeled/M1113/M134/M1113_M134_Tan.et"
+         m_bEnabled 0
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{657F68AC19BF0387}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{657F68AC19BF03B9}" {
+           m_eSlotTypes 24
+          }
+         }
         }
         SCR_EntityCatalogEntry "{6546B64E17C9CE21}" {
          m_bEnabled 0
@@ -912,11 +1459,70 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogEntry "{6576AB2D6E348E13}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogEntry "{6588BCCEB1179179}" {
+         m_sEntityPrefab "{E51363A7AF50719F}Prefabs/Vehicles/Wheeled/ANTWQ1/TWQ-1.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6588BCCEB1179120}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6588BCCEB1179123}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6588BCCEB780B0F9}" {
+         m_sEntityPrefab "{E87DB88074A6572B}Prefabs/Vehicles/Wheeled/ANTWQ1/TWQ-1_MERDC.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6588BCCEB780B0A8}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6588BCCEB780B0AB}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6588BCCEB2018755}" {
+         m_sEntityPrefab "{E3B45C1BD3C77811}Prefabs/Vehicles/Wheeled/ANTWQ1/TWQ-1_Desert.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6588BCCEB2018700}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6588BCCEB2018703}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65870743984E4BFD}" {
+         m_sEntityPrefab "{7C0CAA1F89617AB1}Prefabs/Vehicles/Wheeled/M1097/M1097_Command.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{65870743984E4BA9}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{65870743984E4BAC}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{6587074391C8EE40}" {
+         m_sEntityPrefab "{726530BF20AF0B23}Prefabs/Vehicles/Wheeled/M1097/M1097_Command_Tan.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{6587074391C8EE30}" {
+           m_eValidEditorModes 33
+          }
+          SCR_EntityCatalogSpawnerData "{6587074391C8EE32}" {
+           m_eSlotTypes 24
+          }
+         }
+        }
        }
       }
       SCR_EntityCatalogMultiListEntry "{5C9AD18D0588C053}" {
       }
      }
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EE8B97CA50}" : "{4E70E7C4C2C17D4A}Configs/EntityCatalog/US/Groups_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalog "{5C68A0EEB7DB3E84}" : "{0E4B62F186F97C43}Configs/EntityCatalog/US/WeaponTripod_EntityCatalog_US.conf" {
     }
     SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
      m_aMultiLists {
@@ -937,6 +1543,18 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogInventoryItem "{606084A3E362E9A4}" {
         }
+        SCR_EntityCatalogInventoryItem "{609E851EB5F91000}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609E851E98807F03}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1A5D3BAAB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1A6F4AFD6}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogInventoryItem "{5C62F7D8EA121E09}" {
          m_sEntityPrefab "{3E413771E1834D2F}Prefabs/Weapons/Rifles/M16/Rifle_M16A2.et"
          m_bEnabled 1
@@ -944,6 +1562,18 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogInventoryItem "{5C62F7D8E95012DA}" {
          m_sEntityPrefab "{5A987A8A13763769}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_M203.et"
          m_bEnabled 1
+        }
+        SCR_EntityCatalogInventoryItem "{609E851EF5DF33EC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609E851ED35C479A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1ED7572A2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D1EE4B2D11}" {
+         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D81660D0B9}" {
          m_sEntityPrefab "{D96BF821125E194B}Prefabs/Weapons/Bacon_MG_M249_Rails.et"
@@ -998,6 +1628,54 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogInventoryItem "{626D58B71DF3F864}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609715F90BE607A9}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609EA34A74E7668D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{609EA34888C19204}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EA348F06FCE25}" {
+           m_bEnabled 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6262A8DFA0749589}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EA348F06FCE25}" {
+           m_bEnabled 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6262A8DF4CBA328A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EAF546FF72AE87C}" {
+           m_bEnabled 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62F14E40478BF381}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62F14E40478BF317}" {
+           m_bEnabled 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{63154E085588AF01}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{63154E085588AEAE}" {
+           m_bEnabled 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{63154E0858DA06AE}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{63154E0858DA063F}" {
+           m_bEnabled 0
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{622764B6927E7EFE}" {
          m_bEnabled 0
@@ -1084,6 +1762,21 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogInventoryItem "{64FC54938C28E6C9}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogInventoryItem "{6518DE558379877D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6518DE5583798483}" {
+           m_eRequiredRank GENERAL
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D2BC22A1FA869A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62D2BC22A76E09AE}" {
+           m_eItemType SNIPER_RIFLE
+           m_eRequiredRank SERGEANT
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{64FC5492E7A82019}" {
          m_bEnabled 0
         }
@@ -1094,8 +1787,388 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA6FA1B8}" {
        m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5CB8995694A786D7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB899569D541754}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D816ADEECB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D87BE255BC}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D815E4A238}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D879C139A4}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89956F2B9AFC5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89956E2AD1B98}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D813556BD9}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8641686D9}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8126A50EF}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8622A2D44}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB899463BF0E924}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB899462B289482}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB8994619F455EC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB899467E593BD4}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C8771AF5329F3}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C87719BA90BE5}" {
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C877191E9B5F0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C8771FC1C6053}" {
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{615C8771926ED950}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{615C8771E9B1CE4F}" {
+           m_iSupplyCost 20
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB8994A0996F564}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB8994A7347CD36}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81EA1A633}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DF96C89A81}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81D0E5581}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7DF94CA2FF2}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB899478684136C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB899468928129D}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89946F93DA322}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946D3E242B5}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89946C0314ED7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946CC23827A}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{5D4A8E6F2C9744D7}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{606339D3366CAB46}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F2C9744D8}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{606339D331A6C0B9}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F2C9744D8}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61B5620C29A60D8E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89956A9C764AE}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F2C9744D9}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F2C9744DA}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F2C9744DC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F2C9744DD}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E8D0276F7A7BE78}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F2C9744DD}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E8D027616889567}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F2C9744DD}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD4FA1CA7B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD4EEC60B8}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD4E45C937}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD7D7FD663}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD7CCBBA38}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD7C2A153C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD7F497F9D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD7EB32DA1}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD7E084278}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD7979F023}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD78DC2950}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E911BCD783E422F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{607D345E8DFC7F98}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{607D345E8C468861}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{607D345E8F0125C0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C5E0B2BB5A1A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C5E0CF4DD5B0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C5E0C2652DEB}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C51999D0FFD5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C519F803BD68}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C519FF703AB5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C519FDA8362F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C5181F91FCD4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6142C519C61ADA5A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5EF92AEF02FAB25B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5EF92AEF1D4E7A62}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5EF92AEF1FD9908B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E911BCD451ADA4B}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{61D5481A099A5DEF}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61D5481AD78DD5D8}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6518DE55F2C7DB94}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6518DE55F2C7DBD7}" {
+           m_iSupplyCost 50
+           m_eRequiredRank GENERAL
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6519042BB55D6D7D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6519042BB55D6DA0}" {
+           m_iSupplyCost 50
+           m_eRequiredRank GENERAL
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{64FC54935ACE9A30}" {
          m_aEntityDataList {
@@ -1104,13 +2177,493 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{64FC54932A7050B7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54932A705001}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549337D6E4E4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549337D6E4B4}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549335D7A08E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549335D7A059}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54933A368DEA}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54933A368D4C}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493007B7EED}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493007B7EB0}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549306AB9120}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549306AB928F}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549304931D05}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549304931E9D}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54930AA76436}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54930AA7658B}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54930B340781}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54930B340718}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549309451A81}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549309451A50}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54930FC4F53D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54930FC4F6A1}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54930DF8F290}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54930DF8F263}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549313FABEBF}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549313FABFC4}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549311BC535E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549311BC5329}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54931AD3FDD5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54931AD3FDA4}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC549318C66A03}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC549318C66BD3}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC54931C374AF8}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC54931C374A47}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493E01C424D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493E01C4222}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493E482CF09}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493E482C0D8}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493EAE087F2}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493EAE0870C}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493E8D0891C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493E8D08ABC}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493E90D57AE}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493E90D5773}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493EFEE6E1B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493EFEE6FFF}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493ED5448AC}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493ED54487E}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493F3402AD6}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493F3402AAA}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493F6C7BFE4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493F6C7BF4C}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493F767091F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493F7670AE0}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{64FC5493F58983B8}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{64FC5493F5898314}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{62D2BC22B3D56D88}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65329DF0CBE2D9D4}" {
+         m_sEntityPrefab "{4EC57F7A71F869BF}Prefabs/Weapons/Magazines/Box_127x99_CROWS_M2_200rnd_4AP_1APIT.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946CC23827A}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65329DF0A4F65900}" {
+         m_sEntityPrefab "{9B8CDC3CD2E535D2}Prefabs/Weapons/Magazines/Box_30x113_M230LF_250rnd_HEDP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946CC23827A}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65329DF0DF6773D3}" {
+         m_sEntityPrefab "{9B8CDC3CD2E535D2}Prefabs/Weapons/Magazines/Box_30x113_M230LF_250rnd_HEDP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946CC23827A}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65329DF0D3571A29}" {
+         m_sEntityPrefab "{4EC57F7A71F869BF}Prefabs/Weapons/Magazines/Box_127x99_CROWS_M2_200rnd_4AP_1APIT.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5CB89946CC23827A}" {
+           m_iSupplyCost 5
+          }
+         }
         }
        }
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA315A22}" {
        m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D81F1DA879}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D86AED1F20}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81E6DD8F0}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8680EBEA9}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609E851ECE0460DF}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609E851E3D23D6B8}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{609EB8D11C0FE0B2}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{609EB8D108EFB136}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6060849C4DDEE042}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{606084A3AC514F5E}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{619AC1DBAF3BE59D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{619AC1DA449C911A}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{619AC1DA6017A6B5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{619AC1D9B47FCE22}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{619AC1DA6168F0D7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{619AC1D9A257092A}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5EAB4B928EB1BE68}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F7DECADD1}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5EAB4B92BF38DEEE}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F7DECADD1}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F4722947D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F7DECADD1}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62D965D05177239A}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F7DECADD1}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62AF5E90AA5B196F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F7DECADD1}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62B758732FB09F06}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F7DECADD1}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62B7587329D73DB1}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F7DECADD1}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{627329145689BBD8}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6F737673A6}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F45C49274}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6ECE7B3306}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5F2B0257E4C26E65}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6ECE7B3306}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61DD54F10D8F6118}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6E1EC96869}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61DD54F173E7E3C7}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6E1EC96869}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61DD54F10C8D5A1F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6E1EC96869}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61DD54F1727FB49C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6E1EC96869}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F43752CE6}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6E1EC96869}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F4012AEF1}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6EE4247C9E}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F417A251D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6EF1FB105E}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F41C0BF9E}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6EEB81F8D2}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62FD6BAD78325996}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6EF1FB105E}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{60696CDA2E28261F}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6EF1FB105E}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F420E2338}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6EC7C89622}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D4A8E6F43D764FA}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D4A8E6EFE26A4D6}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5EAF546FD30AA8BF}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EAF546FC9F584B3}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5EAF546FBCBA7F1B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EAF546FA4A45F7B}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61AD585F00AD989D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D57002727B99576}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{61AD585F29A01BD9}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D57002727B99576}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D5700272CCE3BB5}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D57002725D38BF8}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D5700272FEBD3F2}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D57002727B99576}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{6320DDD7542F39FC}" {
         }
         SCR_EntityCatalogInventoryItem "{62473483E2C163F5}" {
@@ -1122,18 +2675,142 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogInventoryItem "{62473483FEB0C483}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogInventoryItem "{6312A49806457D27}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6312A49806457CA5}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{652EA79990147E13}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65190353CC8010D1}" {
+         m_sEntityPrefab "{2317FC3B9E8BD064}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_SpecterDR_1-4x/Optic_ElcanSpecterDR_MRDS.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D86AED1F20}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{65190353D0F47488}" {
+         m_sEntityPrefab "{BEDA88B88A067248}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_SpecterDR_1-4x/Optic_ElcanSpecterDR_MRDS_BLK.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D86AED1F20}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{651903538CFACFE7}" {
+         m_sEntityPrefab "{5279254DC7119EE9}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_TANGO6T/Optic_TANGO6T_FDE_RMR.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{651903538CFACF5D}" {
+           m_eItemType WEAPON_ATTACHMENT
+           m_eItemMode ATTACHMENT
+           m_iSupplyCost 35
+          }
+         }
         }
        }
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD59F0753ABE}" {
        m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8C84EE117}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D80D4C5D03}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F7F788DD}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D8316E1B28}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F4888A85}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D838B75E1B}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E0304F3B82F416B}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E0304F3DD6D9806}" {
+           m_iSupplyCost 25
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E22CEC92125910C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E22CEC92C854063}" {
+           m_iSupplyCost 600
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5E110E1DC68C3537}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5E110E1D8B6C3689}" {
+           m_iSupplyCost 2
+          }
+         }
+        }
         SCR_EntityCatalogEntry "{646144EFAFAAAB82}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{646144EFA8CD43A2}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D7F5AA0973EFDB3}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D7F5AA0885EDB5B}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5DA708DE0662151C}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5DA708DE02996A26}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5D7F5AA0B6A4D0BA}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5D7F5AA0A821D5A5}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5DA708DE22F9F117}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5DA708DE12D0BECA}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5DF4ABB5A58B3FED}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5DF4ABB586B2F63E}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5DF4ABB594FE64A4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5DF4ABB27AB5054C}" {
+           m_iSupplyCost 5
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{5DF4ABB277AED3FE}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5DF4ABB270F9639F}" {
+           m_iSupplyCost 5
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{608D56DAE52578DB}" {
          m_bEnabled 0
@@ -1146,11 +2823,46 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogInventoryItem "{64FC0C0EC8491502}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogInventoryItem "{62211775457BAED2}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{622117757B62316A}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{621956F50AF470EE}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{621956F46FDCDDCB}" {
+           m_iSupplyCost 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{62211775EA7405E8}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{62211775E99A9627}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6221175BA4F3BFD4}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6221175BD9C79636}" {
+           m_iSupplyCost 1
+          }
+         }
+        }
        }
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA2B2FF4}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5C62F7D8F231A82E}" {
+        }
+        SCR_EntityCatalogInventoryItem "{61349B64A4E3093D}" {
+         m_aEntityDataList {
+          SCR_ArsenalItem "{61349B64ACD01D53}" {
+           m_eRequiredRank PRIVATE
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FE0A9CB5}" {
          m_bEnabled 0
@@ -1208,6 +2920,54 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA1A6D59}" {
        m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F08416A5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C72EDE237C6A672}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C72EDE2398E8A30}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{607EC073FF880E3F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{607EC073E2969C57}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{60F6F34DA790B15C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{60F6F34DA89F4E9F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{60F6F34DA9ED3BE1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8FFD78690}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F03CE9CD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D7297FBE74B83B3}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F1E3408D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6118DED9DDA6F639}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6118DED9DEA85C22}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{6118DED9DE59DD26}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5E6CD7DF6B2520A5}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogInventoryItem "{6297568811B48678}" {
          m_bEnabled 0
         }
@@ -1575,7 +3335,16 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
        }
       }
+      SCR_EntityCatalogMultiListEntry "{6316F147E127FEDE}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{615009250F2FAA51}" {
+         m_bEnabled 0
+        }
+       }
+      }
      }
+    }
+    SCR_EntityCatalog "{5C9EDDD37394AD40}" : "{0BF36EFF9FFAF92B}Configs/EntityCatalog/US/SupplyContainerItems_EntityCatalog_US.conf" {
     }
    }
    m_DefendersGroupPrefab "{C924F844F57F4BF9}Prefabs/Groups/Campaign/Group_US_USMC_Defenders.et"
@@ -1881,6 +3650,8 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    }
    m_BaseBuildingHQ "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et"
   }
+  SCR_Faction "{60DCF47AEF40BD72}" : "{3FA20B01D950D31F}Configs/Factions/CIV.conf" {
+  }
   SCR_CampaignFaction "{657D0218907D49B9}" {
    FactionKey "RHS_AFRF"
    FactionColor 0.555 0.002 0 1
@@ -2058,6 +3829,21 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
   }
   SCR_RankIDCampaign "{5CB0777E88380770}" {
    m_iRequestCD 900
+  }
+  SCR_RankIDCampaign "{62D22AB1ADE1DAD2}" {
+   m_iRank COLONEL
+   m_iRequiredXP 4150
+   m_iRequestCD 30
+  }
+  SCR_RankIDCampaign "{62D22AB191D7D99C}" {
+   m_iRank GENERAL
+   m_iRequiredXP 5390
+   m_iRequestCD 30
+  }
+  SCR_RankIDCampaign "{655B22E16A7304C4}" {
+   m_iRank CUSTOM1
+   m_iRequiredXP 50000
+   m_iRequestCD 30
   }
   SCR_RankIDCampaign "{632072CBB9304E6D}" {
    m_iRank COLONEL

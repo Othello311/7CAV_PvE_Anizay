@@ -5,9 +5,6 @@ Vehicle : "{A317D959A4248173}Prefabs/Vehicles/Helicopters/AH6M/AH6M_GAU19.et" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AH6M-Vehicle_AH6M_GAU19_Name"
     m_Image "{6863F91E716AF9EC}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_GAU19.edds"
-    m_aAuthoredLabels + {
-     199999901
-    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
       m_BudgetType RANK_LIEUTENANT

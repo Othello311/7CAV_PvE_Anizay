@@ -419,6 +419,9 @@ Vehicle : "{F503F71C08BE3F7D}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_arme
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "MH60 Blackhawk - M134 x 2"
     m_Image "{DBFD572C6703E03F}UI/AUS_UH60_armed.edds"
+    m_aAuthoredLabels {
+     51 21 37 199999905
+    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 900
